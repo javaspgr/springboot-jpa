@@ -48,4 +48,14 @@ public class UserController {
         return userService.getAllUser();
     }
 
+
+    /**
+     * 新增方法
+     * @param id
+     */
+    public void save(Long id){
+
+           System.out.println("打个电话");
+
+    }
 }
